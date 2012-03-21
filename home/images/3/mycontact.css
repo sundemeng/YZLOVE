@@ -1,0 +1,7 @@
+.main .right .rightTitle {width:630px;height:25px;line-height:25px;background:#fe4385;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+.main .right .rightTitle h4 {float:left;color:#fff}
+.main .right .rightTitle a {float:right;display:block;width:60px;color:#fff;position:relative;font-size:14px;font-weight:bold}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#000}
+.main .right .rightContent {width:624px;background:#fff;color:#666;padding:15px 3px 10px 3px;;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;text-align:center}
+.main .right .rightContent .nodata {width:300px;margin:100px;padding:40px 0 40px 0;background:#fff;position:relative;}

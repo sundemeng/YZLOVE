@@ -1,0 +1,6 @@
+.main .right .rightTitle {width:628px;height:24px;line-height:24px;background:#000;border:#666 1px solid;position:relative}
+.main .right .rightTitle h4 {float:left;color:#666}
+.main .right .rightTitle a {float:right;display:block;width:53px;color:#CCA300;position:relative;font-size:14px;font-weight:bold}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#fc0}
+.main .right .rightContent {width:628px;background:#000;color:#999;padding:15px 0px 10px 0px;text-align:center;border-left:#666 1px solid;border-right:#666 1px solid;position:relative}

@@ -1,0 +1,211 @@
+a.ub9_800040{text-decoration:underline;color:#800040;font-weight:bold}
+a.ub9_800040:hover{text-decoration:underline;color:#DF2C91}
+a.a9_FF0090{text-decoration:onne;color:#FF0090}
+a.a9_FF0090:hover{text-decoration:underline;color:#f60}
+/*第1方正*/
+.main1 {width:245px;}
+.main1 .right {float:right;width:245px;*height:210px;*height:210px;}
+.main1 .right .partyT {width:245px;height:27px;background-image:url(../images/party_tbg.gif)}
+.partyTWH{float:left;width:74px;height:27px;*height:27px;*margin:0 2px 0 0;line-height:27px}
+.main1 .right .partyT .partyT0{background-image:url(../images/party_t.gif)}
+.main1 .right .partyT .partyT0 a{text-decoration:none;color:#800040}
+.main1 .right .partyT .partyT0 a:hover{color:#DF2C91}
+.main1 .right .partyT .partyT1{background-image:url(../images/party_tselect.gif)}
+.main1 .right .partyT .partyT1 a{text-decoration:none;color:#982E00;font-weight:bold}
+.main1 .right .partyT .partyT1 a:hover{color:#DF2C91}
+
+.main1 .right .partyC #pp1 span{color:#FF0090;font-family:Verdana;font-size:11px}
+.main1 .right .partyC #pp1 .L{float:left;width:80px;height:75px;*height:75px;line-height:75px;text-align:center;color:#999;background:#f8f8f8;*padding:1px;border:1px #ddd solid;*margin:0 2px 0 0px;display:inline}
+.main1 .right .partyC #pp1 .L img{width:80px;height:75px;}
+.main1 .right .partyC #pp1 .R{float:left;width:151px;height:83px;*height:83px;padding:0 0 0 1px;line-height:170%;color:#7F7F7F;overflow:hidden;}
+.main1 .right .partyC #pp1 .R h4{*margin:0 0 2px 0}
+.main1 .right .partyC #pp1 .R h4 a{text-decoration:none;color:#444444}
+.main1 .right .partyC #pp1 .R h4 a:hover{text-decoration:underline;color:#f60}
+
+
+.partyC #pp1 .pul .pli2 a{color:#666}
+.partyC #pp1 .pul .pli2 a:hover{color:#FF0090}
+a.Pjhbm{color:#EE2C70;text-decoration:underline;font-size:14px;font-weight:bold}
+a.Pjhbm:hover{color:#EE2C70;}
+
+/*第2方正*/
+.main2 {width:245px;height:100px;*height:100px;margin:0px auto;*margin-bottom:5px;*margin-top:5px;margin-bottom:80px!important; _margin-bottom:15px;}
+.main2 .right {float:right;width:245px;height:40px;*height:120px;}
+/*diary*/
+.main2 .right .diaryT {width:245px;height:27px;background-image:url(../images/party_tbg.gif);margin:8px 0 0 0}
+.diaryTWH{float:left;width:74px;height:27px;margin:0 2px 0 0;line-height:27px}
+.main2 .right .diaryT .diaryT0{background-image:url(../images/party_t.gif)}
+.main2 .right .diaryT .diaryT0 a{text-decoration:none;color:#800040}
+.main2 .right .diaryT .diaryT0 a:hover{color:#DF2C91}
+.main2 .right .diaryT .diaryT1{background-image:url(../images/party_tselect.gif)}
+.main2 .right .diaryT .diaryT1 a{text-decoration:none;color:#982E00;font-weight:bold}
+.main2 .right .diaryT .diaryT1 a:hover{color:#DF2C91}
+.main2 .right .diaryC {width:245px;height:70px;}
+.main2 .right .diaryB {width:245px;height:30px;border-left:1px #F1BFD4 solid;border-right:1px #F1BFD4 solid;border-bottom:1px #F1BFD4 solid}
+.main2 .right .diaryB .box{width:245px;height:17px;padding:3px 0 0 0;background:#FCFBED;color:#c8b19b;margin:0px auto}
+.main2 .right .diaryB .box a{text-decoration:none;color:#f60;font-weight:bold;font-size:14px}
+.main2 .right .diaryB .box a:hover{text-decoration:underline;color:#DF2C91}
+#dd2,#dd3,#dd4{display:none}
+.main2 .right .diaryC .dd{width:240px;height:140px;margin:0px auto;padding-top:5px}
+.main2 .right .diaryC .li1,.li2{float:left;height:27px;overflow:hidden;background-image:url(../images/reguserlist.gif);text-align:left}
+.main2 .right .diaryC .li1{width:170px;height:20px;text-align:left;padding:7px 0 0 0}
+.main2 .right .diaryC .li2{width:60px;text-align:right;line-height:27px}
+.main2 .right .diaryC .li2s{float:left;width:230px;line-height:21px;padding:7px 0 0 0;text-align:justify;text-justify:newspaper;text-indent: 1.6em;}
+.main2 .right .diaryC .li3{width:240px;height:20px;*height:20px;text-align:left;*padding:2px 0 0 0}
+.main2 .right .partyC #pp1 .pul{margin:3px 3px 0 0px;width:230px}
+.partyC #pp1 .pul .pli1,.partyC #pp1 .pul .pli2{float:left;height:26px;line-height:24px;overflow:hidden;color:#999;}
+.partyC #pp1 .pul .pli1{width:210px;padding:0 0 0 18px;background-image:url(../images/party_libg.gif)}
+.partyC #pp1 .pul .pli2{width:60px;text-align:right;background-image:url(../images/party_libg2.gif)}
+.partyC #pp1 .pul .pli2 a{color:#666}
+.partyC #pp1 .pul .pli2 a:hover{color:#FF0090}
+.main2 .right .diaryC .hui{color:#999999}
+.main2 .right .diaryC .help{cursor:help}
+.main2 .right .adv2 {width:300px;height:90px;margin:8px 0 0 0;background:#ddd}
+
+/*征婚榜*/
+.main2s {width:528px;height:155px;*height:155px;margin:0px auto;margin-top:8px;*margin-top:8px;*margin-bottom:20px;}
+.main2s .left {float:left;width:528px;height:120px}
+.main2s .left .title {width:528px;height:35px;font-size:14px;background-image:url(../images/userJJ0.gif)}
+.rj,.nbsp10,.nbsp116{float:left;height:35px;font-size:13px;text-align:right}
+.main2s .left .title .rj {width:4px}
+.main2s .left .title .nbsp10 {width:10px;}
+.main2s .left .title .nbsp116 {width:404px;height:27px;padding:8px 0 2px 0}
+.userJJ0,.userJJ1,.userJJT0,.userJJT1 {float:left;width:110px;height:27px;padding:6px 0 3px 0}
+.main2s .left .title .userJJT0{background-image:url(../images/userJJT0.gif);letter-spacing:4px}
+.main2s .left .title .userJJT1{ font-weight:bold;}
+.main2s .left .title .userJJ0 span{font-weight:normal;color:#B5266D}
+.main2s .left .title .userJJ1{background-image:url(../images/userJJ1.gif)}
+.main2s .left .title a{color:#fff;text-decoration:underline}
+.main2s .left .title a:hover{color:#fff}
+.main2s .left .title .userJJT1 a{color:#fff;text-decoration:none}
+.main2s .left .title .userJJT1 a:hover{color:#fff;text-decoration:underline}
+.main2s .left .title .userJJ1 a{color:#fff;text-decoration:none}
+.main2s .left .title .userJJ1 a:hover{color:#ff0}
+.main2s .left .content {width:526px;height:125px;border-left:#BE9DAB 1px solid;border-right:#BE9DAB 1px solid;border-bottom:#CCCCCC 1px solid;text-align:left;}
+#uu2,#uu3,#uu4,#uu5{display:none}
+.main2s .left .content .uu {width:510px;height:125px;padding:0 0 0 14px;overflow:hidden}
+.main2s .left .content .uu .sexselect{width:496px;height:34px;border-bottom:#efefef 1px solid}
+.main2s .left .content .uu .sexselect .JIAYIN1{float:left;width:243px;height:29px;padding:5px 0 0 0}
+.main2s .left .content .uu .sexselect .JIAYIN2{float:left;width:243px;height:34px;line-height:34px;text-align:right;color:#999}
+.main2s .left .content .uu .sexselect .JIAYIN2 a{text-decoration:underline;color:#FF5494;font-weight:bold}
+.main2s .left .content .uu .sexselect .JIAYIN2 a:hover{color:#B5266D}
+.main2s .left .content .uu .frame{float:left;width:80px;height:98px;text-align:left;padding:10px 0px 10px 0px}
+.main2s .left .content .uu .frame .L{float:left;width:80px;height:98px;margin:0 6px 0 5px}
+.main2s .left .content .uu .frame .L img{width:80px;height:98px}
+.main2s .left .content .uu .frame .R{float:left;width:207px;height:135px;font-family:Verdana}
+.main2 .left .content .uu .frame .R .top{width:193px;height:21px;border-bottom:#ddd 1px dashed;color:#999}
+.main2s .left .content .uu .frame .R .top a{text-decoration:none;color:#444;font-weight:bold;font-family:Verdana,Arial}
+.main2s .left .content .uu .frame .R .top a:hover{text-decoration:underline;color:#DF2C91}
+.main2s .left .content .uu .frame .R .middle{width:190px;height:83px;line-height:150%;padding:8px 14px 0 3px;color:#777;overflow:hidden}
+.main2s .left .content .uu .frame .R .bottom{width:185px;height:22px;line-height:22px;padding-right:22px;text-align:right;color:#FF5494}
+.main2s .left .content .uu .frame .R .bottom a{text-decoration:none;color:#FF5494}
+.main2s .left .content .uu .frame .R .bottom a:hover{text-decoration:underline;color:#DF2C91}
+
+/*第3方正*/
+.main3 {width:980px;height:405px;margin:0px auto;margin-top:8px}
+.main3 .left {float:left;width:670px;height:405px}
+.main3 .left .title {width:670px;height:35px;font-size:14px;font-weight:bold;background-image:url(../images/userJJ0.gif)}
+/*.rj,.nbsp10,.nbsp116{float:left;height:35px}*/
+.main3 .left .title .rj {width:4px}
+.main3 .left .title .nbsp10 {width:10px;}
+.main3 .left .title .nbsp116 {width:116px;}
+.groupJJ0,.groupJJ1,.groupJJT0,.groupJJT1 {float:left;width:90px;height:27px;padding:8px 0 0 0}
+.main3 .left .title .groupJJT0{background-image:url(../images/userJJT0.gif);letter-spacing:4px}
+.main3 .left .title .groupJJT1{background-image:url(../images/userJJT1.gif);letter-spacing:4px}
+.main3 .left .title .groupJJ0 span{font-weight:normal;color:#B5266D}
+.main3 .left .title .groupJJ1{background-image:url(../images/userJJ1.gif)}
+.main3 .left .title a{color:#B5266D;text-decoration:none}
+.main3 .left .title a:hover{color:#DF2C91}
+.main3 .left .title .groupJJT1 a{color:#fff;text-decoration:none}
+.main3 .left .title .groupJJT1 a:hover{color:#ff0}
+.main3 .left .title .groupJJ1 a{color:#fff;text-decoration:none}
+.main3 .left .title .groupJJ1 a:hover{color:#ff0}
+.main3 .left .content {width:668px;height:370px;border-left:#F1BFD4 1px solid;border-bottom:#F1BFD4 1px solid;border-right:#F1BFD4 1px solid;text-align:left}
+#gg2,#gg3,#gg4,#gg5{display:none;text-align:left}
+.main3 .left .content .gg {width:638px;height:128px;margin:0px auto;line-height:24px;color:#888;padding:8px 0 0 0}/*overflow:hidden;*/
+.main3 .left .content .gg span{color:#f00}
+.main3 .left .content .gg a{text-decoration:none;color:#444}
+.main3 .left .content .gg a:hover{text-decoration:underline;color:#DF2C91}
+.main3 .left .content .gg a.grade{font-weight:bold}
+.main3 .left .content .gg a.grade:hover{color:#DF2C91}
+.main3 .left .content .gg li{float:left;width:202px;height:24px;background:#FFF1F7;overflow:hidden;padding:0 0 0 10px}
+/*adv*5*/
+.main3 .left .content ul{width:657px;height:52px;color:#999;padding:0 0 0 11px;margin:5px 0 5px 0}
+.main3 .left .content ul li{float:left;width:115px;height:50px;line-height:50px;margin:0 6px 0 6px;background:#efefef;text-align:center;border:#fff 1px solid;display:inline;overflow:hidden}
+.wzbox{float:left;height:162px;display:inline}
+.main3 .left .content .wzbox1{width:16px;}
+.main3 .left .content .wzbox2{width:310px}
+.main3 .left .content .wzbox3{width:16px;background-image:url(../images/group_ty.gif)}
+.main3 .left .content .wzbox4{width:310px}
+.main3 .left .content .wzbox2 .wzT,.main3 .left .content .wzbox4 .wzT{width:310px;height:25px;border-bottom:#D8EAC4 2px solid}
+.main3 .left .content .wzbox2 .wzC,.main3 .left .content .wzbox4 .wzC{width:310px;height:135px;background-image:url(../images/group_c.gif);line-height:27px}
+.wzT .wzTl{float:left;width:12px}
+.wzT .wzTm{float:left;width:261px;height:16px;padding:9px 0 0 0;color:#6F9F00;font-weight:bold}
+.wzT .wzTr{float:left;width:37px}
+.wzli1,.wzli2{float:left;height:27px;display:inline}
+.wzC .wzli1{width:220px;padding:0 0 0 22px;overflow:hidden}
+.wzC .wzli2{width:68px}
+.wzC .wzli3{width:288px;padding:0 0 0 22px;color:#ccc;overflow:hidden}
+.wzC .wzli3 .lan{color:#06c}
+.wzC .wzli3 .hong{color:#FF5494}
+.main3 .right {float:right;width:302px;height:406px}
+/*story*/
+.main3 .right .storyT {width:302px;height:27px;background-image:url(../images/party_tbg.gif)}
+.storyTWH{float:left;width:74px;height:27px;margin:0 2px 0 0;line-height:27px}
+.main3 .right .storyT .storyT0{background-image:url(../images/party_t.gif)}
+.main3 .right .storyT .storyT0 a{text-decoration:none;color:#800040;font-family:"宋体"}
+.main3 .right .storyT .storyT0 a:hover{color:#DF2C91}
+.main3 .right .storyT .storyT1{background-image:url(../images/party_tselect.gif)}
+.main3 .right .storyT .storyT1 a{text-decoration:none;color:#982E00;font-weight:bold;font-family:"宋体"}
+.main3 .right .storyT .storyT1 a:hover{color:#DF2C91}
+.main3 .right .storyC {width:300px;height:250px;border-left:1px #F1BFD4 solid;border-right:1px #F1BFD4 solid}/*height:229px;*/
+.main3 .right .storyB {width:300px;height:30px;border-left:1px #F1BFD4 solid;border-right:1px #F1BFD4 solid;border-bottom:1px #F1BFD4 solid}
+.main3 .right .storyB .box{width:290px;height:17px;padding:3px 0 0 0;background:#FCFBED;color:#c8b19b;margin:0px auto}
+.main3 .right .storyB .box a{text-decoration:none;color:#f60;font-weight:bold;font-size:14px}
+.main3 .right .storyB .box a:hover{text-decoration:underline;color:#DF2C91}
+#ss2,#ss3,#ss4{display:none}
+#ss4 .kefu{width:255px;height:200px;text-align:left;padding:20px 0 0 0;line-height:24px;font-family:Verdana}
+.main3 .right .storyC .ss{width:280px;height:232px;margin:0px auto;padding-top:5px}
+.main3 .right .storyC .li1,.main3 .right .storyC .li2{float:left;overflow:hidden;background-image:url(../images/ssbg.gif);text-align:left}
+.main3 .right .storyC .li1{width:215px;height:24px;height:24px;line-height:24px;text-align:left;padding:5px 0 0 0;overflow:hidden}
+.main3 .right .storyC .li2{width:65px;height:29px;line-height:29px;text-align:right;color:#888;cursor:help}
+.main3 .right .storyC .li2 span{color:#f00}
+.main3 .right .adv {width:300px;height:90px;margin:8px 0 0 0;background:#ddd}
+/*第4方正*/
+.main4 {width:980px;height:162px;margin:0px auto;margin-top:8px}
+.main4 .left {float:left;width:670px;height:160px}
+.main4 .left .title {width:670px;height:35px;font-size:14px;font-weight:bold;background-image:url(../images/userJJ0.gif)}
+.main4 .left .title .t1,.main4 .left .title .t4 {float:left;width:4px}
+.main4 .left .title .t2 {float:left;width:80px;height:27px;padding:8px 0 0 10px;text-align:left}
+.main4 .left .title .t3 {float:left;width:565px;height:27px;padding:8px 7px 0 0;text-align:right}
+.main4 .left .title a{color:#B5266D;text-decoration:none}
+.main4 .left .title a:hover{color:#DF2C91}
+.main4 .left .title .t3 span{color:#B5266D;font-weight:normal}
+.main4 .left .content {padding:0 0 0 9px;width:659px;height:126px;border-left:#F1BFD4 1px solid;border-bottom:#F1BFD4 1px solid;border-right:#F1BFD4 1px solid;text-align:left}
+.main4 .left .content .box {float:left;width:130px;height:111px;padding:10px 0 0 0;text-align:center}
+.main4 .left .content .box .C {width:100px;height:75px;margin:0px auto;padding:2px;border:#ddd 1px solid}
+.main4 .left .content .box .C img{width:100px;height:75px}
+.main4 .left .content .box .T {width:130px;height:20px;padding:10px 0 0 0}
+.main4 .right {float:right;width:302px;height:162px}
+/*online*/
+.main4 .right .onlineT {width:302px;height:27px;background-image:url(../images/party_tbg.gif)}
+.onlineTWH{float:left;width:74px;height:27px;margin:0 2px 0 0;line-height:27px}
+.main4 .right .onlineT .onlineT0{background-image:url(../images/party_t.gif)}
+.main4 .right .onlineT .onlineT0 a{text-decoration:none;color:#800040;font-family:"宋体"}
+.main4 .right .onlineT .onlineT0 a:hover{color:#DF2C91}
+.main4 .right .onlineT .onlineT1{background-image:url(../images/party_tselect.gif)}
+.main4 .right .onlineT .onlineT1 a{text-decoration:none;color:#982E00;font-weight:bold;font-family:"宋体"}
+.main4 .right .onlineT .onlineT1 a:hover{color:#DF2C91}
+.main4 .right .onlineT .num{float:left;width:145px;height:27px;line-height:27px;text-align:right}
+.main4 .right .onlineT  .num a{text-decoration:underline;color:#f00;font-weight:bold;cursor:help}
+.main4 .right .onlineT  .num a:hover{color:#f60}
+.main4 .right .onlineC {width:300px;height:134px;border-left:1px #F1BFD4 solid;border-right:1px #F1BFD4 solid;border-bottom:1px #F1BFD4 solid}
+.main4 .right .onlineC .C{width:280px;height:115px;margin:0px auto;padding-top:10px;text-align:left;color:#ccc;line-height:24px;overflow:hidden}
+.main4 .right .onlineC .C a.lan{color:#06c}
+.main4 .right .onlineC .C a.lan:hover{color:#DF2C91}
+.main4 .right .onlineC .C a.hong{color:#FF5494}
+.main4 .right .onlineC .C a.hong:hover{color:#DF2C91}
+/*第5方正*/
+.main5 {width:980px;text-align:center;color:#ccc;height:98px; background:url(../sun_images/link_bj.jpg) no-repeat; margin-top:7px; margin-left:2px; line-height:30px;}
+.main5 a{color:#595757}
+.main5 hover{color:#666666}

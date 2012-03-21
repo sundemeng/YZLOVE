@@ -1,0 +1,23 @@
+.main .right .rightTitle {width:748px;height:24px;line-height:24px;background:#000;border:#666 1px solid;position:relative}
+.main .right .rightTitle h4 {float:left;color:#666;position:relative}
+.main .right .rightTitle a {float:right;display:block;width:80px;color:#CCA300;position:relative;font-size:14px;font-weight:bold}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#fc0}
+.main .right .rightContent {width:748px;background:#000;color:#666;padding:10px 0 10px 0;text-align:center;border-left:#666 1px solid;border-right:#666 1px solid;border-bottom:#666 1px solid;position:relative}
+.main .right .rightContent .rightContentL {float:left;width:520px;color:#666;text-align:left;position:relative;padding:10px 0 30px 0}
+.main .right .rightContent .rightContentL .LR{width:520px;margin:0px auto;display:inline}
+.main .right .rightContent .rightContentL .LR .L1{float:left;width:110px;height:40px;line-height:24px;text-align:right}
+.main .right .rightContent .rightContentL .LR .R1{float:left;width:410px;line-height:24px}
+.main .right .rightContent .rightContentR {float:left;width:228px;padding:10px 0 30px 0;position:relative;text-align:left}
+.main .right .rightContent .rightContentR .box{width:170px;height:200px;background:#111;border:#333 1px solid;padding:10px 0 0 0;text-align:center;margin:0 0 0 20px;}
+.main .right .rightContent .rightContentR .box .box1{width:158px;padding:15px 0 0 0}
+.main .right .rightContent .bbsaddT{width:692px;height:21px;padding:5px 0 0 0;color:#333;text-align:left;border:#333 1px solid;margin:0px auto}
+.main .right .rightContent .bbsaddT .bbsaddTL{float:left;width:150px;font-weight:bold;position:relative;color:#666}
+.main .right .rightContent .bbsaddT .bbsaddTR{float:right;width:300px;position:relative;text-align:right;padding:0 5px 0 0}
+.main .right .rightContent .bbsaddT img{position:relative;}
+.main .right .rightContent .bbsTips{width:692px;height:60px;padding:15px 0 0 0;position:relative;text-align:left}
+.button{cursor:pointer!important;cursor:hand;background-image:url(../../images/bg_btn.gif);background-color:#FFF5E6; text-align:center; height:32px;padding:0px!important;padding-top:3px; border:1px solid #FF7E00;color:#000000;font-size:10.3pt;font-weight:bold;}
+.textleft {text-align:left}
+.timestyle {color:#f00;font-size:18pt;font-weight:bold}
+.hr{color:#333}
+.datingtextarea{border:#333 1px solid;width:690px;font-size:9pt;background:#111;margin:0 0 10px 0;overflow-y:auto;color:#999}

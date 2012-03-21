@@ -1,0 +1,9 @@
+.main .right .rightTitle {width:748px;height:24px;line-height:24px;background:#000;border:#666 1px solid;position:relative}
+.main .right .rightTitle h4 {float:left;color:#666;position:relative;}
+.main .right .rightTitle a {float:right;display:block;width:80px;color:#CCA300;position:relative;font-size:14px;font-weight:bold;}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#fc0;}
+.main .right .rightContent {width:748px;background:#000;color:#666;padding:10px 0 10px 0;text-align:center;border-left:#666 1px solid;border-right:#666 1px solid;border-bottom:#666 1px solid;position:relative}
+.main .right .rightContent .videoContent{width:650px;color:#999;padding:10px 0 10px 0;text-align:left;line-height:24px;position:relative;margin:0px auto;}
+.main .right .rightContent .videoContent h2{color:#666;display:inline;width:80px}
+.copyCode{background:#111;border:#333 1px solid;color:#666666}

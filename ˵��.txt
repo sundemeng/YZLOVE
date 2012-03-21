@@ -1,0 +1,51 @@
+1，创建数据库并导入数据
+      用户名对数据库只给SELECT, INSERT,UPDATE, DELET四个权限 
+      数据库要导入SQL脚本，如果有PHPmyadmin，则在SQL查询窗口，
+      直接用所给的查询语句(data.sql)复制上  去执行就好了
+
+      数据库名：自定
+      用户名：自定
+      密码：自定
+
+
+2，修改文件:
+   修改sub/conn.php  修改数据库信息
+   修改sub/init.php  修改相应配置信息 
+
+3, 使用FTP工具上传wwwroot文件夹里面所有文件到网站根目录，注意选择二进制上传方式；
+
+4，伪静态设置
+   (1) apache环境下直接复制.htaccess到网站根目录就可以了
+   (2) IIS环境下伪静态相关文件放在 IIS_REWRITE 文件夹中
+
+5，其他要修改的前台目录地方
+(1) 找回密码的SMTP邮箱配置 /forgetpass.php 可以用支持SMTP的新浪邮箱等
+(2) 其他地方修改：
+
+网站logo请修改　　　　　　　　　　/images/logo.gif              尺寸:210x45像数
+用户后台logo请修改    　　 　　　 /my/images/logo.gif           尺寸:190x50像数   背景色 #F7F7F7
+上传照片水印图片请修改 　 　　　　/my/images/waterimg.png       尺寸:160x70像数
+上传照片水印图片请修改 　 　　　　/images/waterimg.png          尺寸:160x70像数
+首页广告请修改　　　　　　　　　　/adv/indexAD.js
+网页底部信息请修改   　　　　　　 /bottom.html    　　　　　　  也可作为扩展文档，比如：插入统计代码。  
+客服中心请修改　　　　　　　　　　/help/index.html
+会员升级价格请修改            　　/price.html
+首页合作网站(友情链接)请修改　　　/links.html　　　　　　       也可作为扩展文档，可直接在里面加东西
+首页联系客服请修改　　          　/indexkefu.html
+个人主页广告请修改                /home/left_ad.html
+会员个人管理中心广告请修改        /myadv.html
+需要首页浮动客服，请把/links.html最下面的那个<!--代码-->前后注释去掉,就会显示,更改文字请修改zeai2kefu.js
+
+
+6，支付功能:
+银行信息请修改            　　　  /bank.html
+北网    my/k_pay_p780.php       14行  $c= "http://www.b780.com/1690000000/$a/$b";   改中间的数字1690000000为你申请的ID
+快钱    my/99bill/rmb/send.php   要申请商家工具，要有密钥和编号
+
+
+7，网站安全配置：
+
+  uploadfile和up给“读取”和“写入”权限
+
+8，登录后台 http://您的域名/admin  用户名 admin  密码 111111
+   前台默认的用户：test    111111

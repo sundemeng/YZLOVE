@@ -1,0 +1,18 @@
+.main .right .rightTitle {width:630px;height:25px;line-height:25px;background:#fe4385;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+
+.main .right .rightTitle h4 {float:left;color:#fff;}
+.main .right .rightTitle a {float:right;display:block;width:86px;color:#fff;position:relative;font-size:14px;font-weight:bold}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#000}
+.main .right .rightContent {width:630px;background:#fff;color:#666;padding:15px 0px 30px 0px;;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;text-align:center;}
+.main .right .rightContent .pageshow {width:560px;height:35px;text-align:center;border-top:#ddd 1px solid;line-height:35px;margin:0 15px 15px 15px;padding:15px;position:relative;color:#333;}
+.main .right .rightContent .nodata {width:300px;margin:100px;padding:40px 0 40px 0;background:#fff;position:relative;}
+.main .right .rightContent .Tdataline{width:600px;height:30px;line-height:30px;text-align:center;border-bottom:#ddd 1px solid;margin:0 0 15px 0;position:relative;}
+.main .right .rightContent .Tdataline .TdatalineL{float:left;width:330px;padding:0 0 0 70px;text-align:left}
+.main .right .rightContent .Tdataline .TdatalineC{float:left;width:60px}
+.main .right .rightContent .Tdataline .TdatalineR{float:left;width:140px}
+.main .right .rightContent .dataline{width:600px;height:30px;position:relative}
+.main .right .rightContent .dataline .datalineL{float:left;width:400px;text-align:left;font-size:14px}
+.main .right .rightContent .dataline .datalineL img{margin:0 10px 0 10px}
+.main .right .rightContent .dataline .datalineC{float:left;width:60px;}
+.main .right .rightContent .dataline .datalineR{float:left;width:140px;}

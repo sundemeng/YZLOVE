@@ -1,0 +1,17 @@
+.main .right .rightTitle {width:630px;height:25px;line-height:25px;background:#090;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+
+.main .right .rightTitle h4 {float:left;color:#fff;}
+.main .right .rightTitle a {float:right;display:block;width:60px;color:#fff;position:relative;font-size:14px;font-weight:bold}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#000}
+.main .right .rightContent {width:630px;background:#fff;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8}
+.main .right .rightContent .userdataL {float:left;width:312px;padding:15px 0 0 0;}
+.main .right .rightContent .userdataR {float:left;width:312px;padding:15px 0 0 0}
+.userdata_l {float:left;width:85px;height:28px;line-height:28px;color:#666;position:relative;text-align:right;}
+.userdata_r {float:left;width:215px;height:28px;line-height:28px;color:#070;position:relative;}
+.main .right .rightContent .userdata_Ml {float:left;width:85px;color:#666;position:relative;line-height:28px;text-align:right;}
+.main .right .rightContent .userdata_Mr {float:left;width:540px;color:#070;position:relative;line-height:28px;}
+.main .right .rightContent .userdata_extMl {float:left;width:200px;line-height:28px;color:#666;position:relative;text-align:right;}
+.main .right .rightContent .userdata_extMr {float:left;width:430px;line-height:28px;color:#070;position:relative;}
+.main .right .rightContent p {line-height:200%;padding:15px 25px 15px 25px;color:#666;font-size:14px;}
+.main .right .wspace{width:630px;height:10px;font-size:10px;overflow:hidden;}

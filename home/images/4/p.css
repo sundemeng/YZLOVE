@@ -1,0 +1,27 @@
+.main .right .rightTitle {width:750px;height:25px;line-height:25px;background:#fe925d;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+
+.main .right .rightTitle h4 {float:left;color:#fff;position:relative;}
+.main .right .rightTitle a {float:right;display:block;width:80px;color:#fff;position:relative;font-size:14px;font-weight:bold;}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none;}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#000;}
+.main .right .rightContent {width:750px;background:#fff;color:#666;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;text-align:center;}
+.main .right .rightContent .pContent{width:700px;color:#666;padding:10px 0 10px 0;text-align:left;position:relative;margin:0px auto;}
+.main .right .rightContent .pContent h2{color:#666;display:inline;width:80px}
+.main .right .rightContent .pContent .ps{border-top:#ddd 1px solid;padding:10px 0 20px 0;text-align:center;}
+.main .right .rightContent .pContent .ps .psC{width:700px}
+.main .right .rightContent .pContent .ps .psL{float:left;width:100px;height:30px;text-align:left;}
+.main .right .rightContent .pContent .ps .psM{float:left;width:500px;height:30px;text-align:center;}
+.main .right .rightContent .pContent .ps .psR{float:left;width:100px;height:30px;text-align:right;}
+.main .right .rightContent .photoLeft{float:left;width:65px;CURSOR:pointer;text-align:center;padding:40px 0 0 0;position:relative;margin:0 0 0 20px;display:inline;}
+.main .right .rightContent .photoLeft a{filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;display:block;position: relative;width:30;height:40px;}
+.main .right .rightContent .photoLeft a:hover {position: relative;top: 1px;display:block;filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+.main .right .rightContent .photoCenter{float:left;width:500px;height:115px;position:relative;}
+.main .right .rightContent .photoCenter ul{}
+.main .right .rightContent .photoCenter li{float:left;margin:5px;display:inline;}
+.main .right .rightContent .photoCenter li .pbox{text-align:center;display:table-cell;vertical-align:middle;position:relative;}
+.main .right .rightContent .photoCenter li .pbox img{margin-top:expression((100-this.height)/2)}
+.main .right .rightContent .photoCenter li .pbox a{width:100px;height:100px;padding:2px;border:#ddd 1px solid;background:#fff;display:block;}
+.main .right .rightContent .photoCenter li .pbox a:hover{width:100px;height:100px;padding:2px;border:#f00 1px solid;background:#fff;display:block;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
+.main .right .rightContent .photoRight{float:left;width:65px;CURSOR: pointer;text-align:center;padding-top:40px;position:relative;}
+.main .right .rightContent .photoRight a{filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;display:block;position: relative;width:30;height:40px;}
+.main .right .rightContent .photoRight a:hover {position: relative;top: 1px;display:block;filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}

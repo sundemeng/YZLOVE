@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<SCRIPT LANGUAGE="JAVASCRIPT" SRC="editfunc.js"></SCRIPT>
+<SCRIPT LANGUAGE="JAVASCRIPT" SRC="colorSelect.js"></SCRIPT>
+<SCRIPT LANGUAGE="JAVASCRIPT" SRC="portraitSelect.js"></SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>多媒体编辑器</title>
+<style type="text/css">
+a {font-size:12px;}
+img {border:0;}
+td.icon {width:24px;height:24px;text-align:center;vertical-align:middle;}
+td.sp {width:8px;height:24px;text-align:center;vertical-align:middle;}
+td.xz {width:47px;height:24px;text-align:center;vertical-align:middle;}
+td.bq {width:49px;height:24px;text-align:center;vertical-align:middle;}
+div a.n {height:16px; line-height:16px; display:block; padding:2px; color:#000000; text-decoration:none;}
+div a.n:hover {background:#E5E5E5;}
+</style>
+<style type="text/css">
+<!--
+.ico {	height: 20px;width:24px; vertical-align:middle; text-align:center;
+}
+.ico2 {	height: 24px;width:38px; vertical-align:middle; text-align:center;
+}
+.ico3 {	height: 24px;width:25px; vertical-align:middle; text-align:center;
+}
+.ico4 {	height: 24px;width:8px; vertical-align:middle; text-align:center;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="100%"  border="0" cellpadding="0" cellspacing="0" background="images/bg.gif" style="border:1px solid #c5c5c5; ">
+  <tr>
+    <td height="31" style="padding-left:5px; "><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="ico"><img src="images/1.gif" width="20" height="20"  onclick="format('Cut')" title="剪切"
+onmousedown=fSetBorderMouseDown(this)  
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this)  /></td>
+        <td class="ico"><img src="images/2.gif" width="20" height="20"  onmousedown=fSetBorderMouseDown(this) onclick="format('Copy')" title="复制"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this)  /></td>
+        <td class="ico"><img src="images/3.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Paste')" title="粘贴"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico4"><img src="images/line.gif" width="4" height="20" /></td>
+        <td class="ico2"><img src="images/4.gif" onmousedown=fSetBorderMouseDown(this)  id="imgFontface" title="字体" onClick="fGetEv(event);fDisplayElement('fontface','')" 
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico2"><img src="images/5.gif" onmousedown=fSetBorderMouseDown(this) id="imgFontsize" title="字号" onClick="fGetEv(event);fDisplayElement('fontsize','')" 
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico3"><img src="images/16.gif" width="23" height="20"  onmousedown=fSetBorderMouseDown(this) title="字体颜色"
+            onmouseover=fSetBorderMouseOver(this)  onclick="foreColor(event)"
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico3"><img src="images/17.gif" onmousedown=fSetBorderMouseDown(this) title="背景颜色"
+            onmouseover=fSetBorderMouseOver(this)  onclick="backColor(event)"
+            onmouseout=fSetBorderMouseOut(this)  /></td>
+        <td class="ico"><img src="images/6.gif" width="20" height="20" onmousedown="fSetBorderMouseDown(this)" onclick="format('Bold');" title="加粗"
+            onmouseover="fSetBorderMouseOver(this)" 
+            onmouseout="fSetBorderMouseOut(this)" /></td>
+        <td class="ico"><img src="images/7.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Italic');" title="斜体"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico"><img src="images/8.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Underline')" title="下划线"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico"><img src="images/9.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Justifyleft')" title="左对齐"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico"><img src="images/10.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Justifycenter')" title="中间对齐"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico"><img src="images/11.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Justifyright')" title="右对齐"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico"><img src="images/12.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Insertorderedlist')" title="数字编号"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico"><img src="images/13.gif" width="20" height="20" onmousedown=fSetBorderMouseDown(this) onclick="format('Insertunorderedlist')" title="项目编号"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico"><img src="images/18.gif" width="21" height="20" onmousedown=fSetBorderMouseDown(this)
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this)   onclick="createLink()" title="增加链接"/></td>
+        <td class="ico"><img src="images/24.gif" onclick="format('unlink');" onmousedown=fSetBorderMouseDown(this)
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) title="清除链接"/></td>
+        <td class="ico4"><img src="images/line.gif" width="4" height="20"  /></td>
+        <td class="ico"><img src="images/19.gif" onmousedown=fSetBorderMouseDown(this) onclick="createImg()" title="增加图片"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico" OnClick="flash()" ><img src="images/21.gif" width="20" height="20"  title="增加Flash" onmousedown=fSetBorderMouseDown(this)   onmouseover=fSetBorderMouseOver(this) onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico" OnClick="wmv()"><img src="images/22.gif" width="20" height="20"  title="插入 MediaPlayer" onmousedown=fSetBorderMouseDown(this)   onmouseover=fSetBorderMouseOver(this) onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico" OnClick="rm()"><img src="images/23.gif" width="20" height="20"  title="插入 RealPlayer" onmousedown=fSetBorderMouseDown(this)   onmouseover=fSetBorderMouseOver(this) onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico3"><img src="images/20.gif" width="23" height="20"  onmousedown=fSetBorderMouseDown(this) onclick="addPortrait(event)" title="魔法表情"
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) /></td>
+        <td class="ico4"><img src="images/line.gif" width="4" height="20"  /></td>
+        <td style="font-size:12px"></td>
+        <td class="ico"><img src="images/25.gif" onclick="format('RemoveFormat');" onmousedown=fSetBorderMouseDown(this)
+            onmouseover=fSetBorderMouseOver(this) 
+            onmouseout=fSetBorderMouseOut(this) title="清除格式" /></td>
+        <td style="font-size:12px"><input type=hidden name="switchMode" language="javascript" onclick="setMode(this.checked)" onmouseout="fHideTip()" onmouseover="fSetModeTip(this)" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<div style="width:100px;height:100px;position:absolute;display:none;top:-500px;left:-500px" ID="dvForeColor">
+<TABLE CELLPADDING=0 CELLSPACING=0 style="border:1px #888888 solid" width="218" height="25">
+<TR>
+	<TD  ID="tdView" width="110">&nbsp;</TD><td ID="tdColorCode" align="center" bgcolor="#ffffff"></td>
+</TR>
+</TABLE>
+</div>
+<div style="width:100px;height:100px;position:absolute;display:none;top:-500px;left:-500px" ID="dvPortrait"></div>
+<div id="fontface" style="z-index:99; padding:1px; display:none; position:absolute; top:35px; left:2px; background:#FFFFFF; border:1px solid #838383; width:110px; height:270px;"><a href="javascript:void(0)" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px '宋体';">宋体</a><a href="javascript:void(0)" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px '黑体';">黑体</a><a href="javascript:void(0)" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px '楷体';">楷体</a><a href="javascript:void(0)" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px '隶书';">隶书</a><a href="#" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px '幼圆';">幼圆</a><a href="#" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px Arial;">Arial</a><a href="#" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px 'Arial Narrow';">Arial Narrow</a><a href="#" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px 'Arial Black';">Arial Black</a><a href="#" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px 'Comic Sans MS';">Comic Sans MS</a><a href="#" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px Courier;">Courier</a><a href="#" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px System;">System</a><a href="javascript:void(0)" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px 'Times New Roman';">Times New Roman</a><a href="javascript:void(0)" onClick="format('fontname',this.innerHTML);this.parentNode.style.display='none'" class="n" style="font:normal 12px Verdana;">Verdana</a></div>
+<div id="fontsize" style="padding:1px; display:none; position:absolute; top:35px; left:26px; background:#FFFFFF; border:1px solid #838383; width:115px; height:160px;"><a href="javascript:void(0)" onClick="format('fontsize',1);this.parentNode.style.display='none'" class="n" style="font-size:xx-small;line-height:120%;">极小</a><a href="javascript:void(0)" onClick="format('fontsize',2);this.parentNode.style.display='none'" class="n" style="font-size:x-small;line-height:120%;">特小</a><a href="javascript:void(0)" onClick="format('fontsize',3);this.parentNode.style.display='none'" class="n" style="font-size:small;line-height:120%;">小</a><a href="#" onClick="format('fontsize',4);this.parentNode.style.display='none'" class="n" style="font-size:medium;line-height:120%;">中</a><a href="javascript:void(0)" onClick="format('fontsize',5);this.parentNode.style.display='none'" class="n" style="font-size:large;line-height:120%;">大</a><a href="javascript:void(0)" onClick="format('fontsize',6);this.parentNode.style.display='none'" class="n" style="font-size:x-large;line-height:120%;">特大</a><a href="javascript:void(0)" onClick="format('fontsize',7);this.parentNode.style.display='none'" class="n" style="font-size:xx-large;line-height:140%;">极大</a></div>	
+<div id="divEditor">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if(document.all){
+	document.write('<table width="100%" height=287px border="0" cellspacing="0" cellpadding="0" id="tbhtmleditor"><tr><td style="border:1px solid #C5C5C5; border-top:0;"><IFRAME class="HtmlEditor" ID="HtmlEditor" name="HtmlEditor" style=" height:286px;width:100%" frameBorder="0" marginHeight=0 marginWidth=0 src="blank.htm"></IFRAME></td></tr></table>');
+}else{
+	document.write('<table width="100%" height=288px border="0" cellspacing="0" cellpadding="0" id="tbhtmleditor"><tr><td style="border:1px solid #C5C5C5; border-top:0;"><IFRAME class="HtmlEditor" ID="HtmlEditor" name="HtmlEditor" style=" height:283px;width:100%" frameBorder="0" marginHeight=0 marginWidth=0 src="blank.htm"></IFRAME></td></tr></table>');
+}
+//-->
+</SCRIPT>
+</div>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if(document.all){
+	document.write('<textarea ID="sourceEditor" style="height:280px;width:99%;display:none;">');
+}else{
+	document.write('<textarea ID="sourceEditor" style="height:282px;width:99%;display:none">');
+}
+//-->
+</SCRIPT>
+</body>
+</html>

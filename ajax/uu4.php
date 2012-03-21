@@ -1,0 +1,1 @@
+<?php $kind=5;require_once 'uu2.php';?>

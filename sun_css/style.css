@@ -1,0 +1,251 @@
+/* CSS Document */
+
+body{
+	font-family:"宋体";
+	text-align:left;
+	font-size:12px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+}
+table{font-family:"宋体"; text-align:left;font-size:12px;}
+img{border:0;}
+
+
+.left{ text-align:center;}
+.center{ text-align:center;}
+.right{ text-align:right;}
+
+.line18{line-height:18px;}
+.line20{line-height:20px;}
+.line20s{line-height:20px;padding-left:10px;}
+.line21{line-height:21px;}
+.line22{line-height:22px;}
+.line24{line-height:24px;}
+.line26{line-height:26px;}
+.line27{line-height:27px;}
+.line28{line-height:28px;}
+.line35{line-height:35px;}
+.line35s{height:28px;}
+.line35s img {line-height:28px;padding-left:10px;}
+.line45{line-height:45px;}
+
+.mg-t1  {margin-top: 7px}
+.mg-t2  {margin-top: 2px}
+.mg-t3  {margin-top: 3px}
+.mg-t5  {
+	margin-top: 5px;
+}
+.mg-t8  {margin-top: 8px}
+.mg-t10 {}
+.mg-t12 {margin-top: 8px}
+.mg-t13 {margin-top: 13px}
+.mg-t15 {margin-top: 15px}
+.mg-t20 {margin-top: 10px}
+.mg-t25 {margin-top: 25px}
+.mg-t30 {margin-top: 30px}
+.mg-t34 {margin-top: 34px}
+.mg-t60 {margin-top: 60px}
+.mg-t108 {margin-top: 108px}
+
+.mg-l2  {margin-left: 2px}
+.mg-l5  {margin-left: 5px}
+.mg-l6  {margin-left: 6px}
+.mg-l10 {margin-left: 10px}
+.mg-l20 {margin-left: 10px;}
+.mg-l30 {margin-left: 30px}
+.mg-l43 {margin-left: 43px}
+.mg-l55 {margin-left: 55px}
+.mg-l67 {margin-left: 67px}
+.mg-l86 {margin-left: 86px}
+.mg-l230{margin-left:230px}
+
+.mg-r12 {margin-right: 12px}
+.mg-r15 {margin-right: 5px}
+.mg-r26 {margin-right: 26px}
+
+.mg-b15 {margin-bottom: 15px}
+.mg-b10 {margin-bottom: 10px}
+.mg-b5 {margin-bottom: 7px}
+.mg-b20 {margin-bottom: 10px}
+
+.pd-2 {padding: 2px;}
+
+.pd-t2  {padding-top: 2px;}
+.pd-t5  {padding-top: 5px;}
+.pd-t8  {padding-top: 8px;}
+.pd-t7  {padding-top: 7px;}
+.pd-t10 {padding-top: 10px;}
+.pd-t12 {padding-top: 12px;}
+.pd-t15 {padding-top: 15px;}
+.pd-t20 {padding-top: 20px;}
+
+.pd-l2  {padding-left: 2px;}
+.pd-l5  {padding-left: 5px;}
+.pd-l8  {padding-left: 8px;}
+.pd-l10 {padding-left: 10px;}
+.pd-l12 {padding-left: 12px;}
+.pd-l15 {padding-left: 15px;}
+.pd-l20 {padding-left: 20px;}
+.pd-l25 {padding-left: 25px;}
+.pd-l30 {padding-left: 30px;}
+.pd-l40 {padding-left: 40px;}
+.pd-l50 {padding-left: 50px;}
+.pd-l54 {padding-left: 54px;}
+.pd-l65 {padding-left: 65px;}
+.pd-l60 {padding-left: 60px;}
+.pd-l70 {padding-left: 70px;}
+
+.pd-r2  {padding-right: 2px;}
+.pd-r5  {padding-right: 5px;}
+.pd-r8  {padding-right: 8px;}
+.pd-r10 {padding-right: 10px;}
+.pd-r12 {padding-right: 12px;}
+.pd-r15 {padding-right: 15px;}
+.pd-r20 {padding-right: 20px;}
+.pd-r25 {padding-right: 25px;}
+
+.pd-b5 {padding-bottom: 5px;}
+.pd-b17 {padding-bottom: 17px;}
+.pd-b20 {padding-bottom: 20px;}
+
+.pdlr{padding-left:10px; padding-right:10px;}
+
+.F_white{COLOR: #fff}
+.F_white A:link {COLOR: #fff; TEXT-DECORATION: none}
+.F_white A:visited {COLOR: #fff; TEXT-DECORATION: none}
+.F_white A:hover {COLOR: #f075d8; TEXT-DECORATION: underline}
+
+.F_cc3366{COLOR: #cc3366}
+.F_cc3366 A:link {COLOR: #cc3366; TEXT-DECORATION: none}
+.F_cc3366 A:visited {COLOR: #cc3366; TEXT-DECORATION: none}
+.F_cc3366 A:hover {COLOR: #cc3366; TEXT-DECORATION: underline}
+
+.F_4d4d4d {COLOR: #4d4d4d}
+.F_4d4d4d A:link {COLOR: #4d4d4d; TEXT-DECORATION: none}
+.F_4d4d4d A:visited {COLOR: #4d4d4d; TEXT-DECORATION: none}
+.F_4d4d4d A:hover {COLOR: #ff0000; TEXT-DECORATION: underline}
+
+.F_e7609e {COLOR: #e7609e}
+.F_e7609e A:link {COLOR: #e7609e; TEXT-DECORATION: none}
+.F_e7609e A:visited {COLOR: #e7609e; TEXT-DECORATION: none}
+.F_e7609e A:hover {COLOR: #e7609e; TEXT-DECORATION: underline}
+
+.F_00438f {COLOR: #C23F8D}
+.F_00438f A:link {COLOR: #C23F8D; TEXT-DECORATION: underline}
+.F_00438f A:visited {COLOR: #C23F8D; TEXT-DECORATION: none}
+.F_00438f A:hover {COLOR: #C23F8D; TEXT-DECORATION: underline}
+
+.F_b70071 {COLOR: #b70071;}
+.F_b70071 A:link {COLOR: #b70071; TEXT-DECORATION: underline}
+.F_b70071 A:visited {COLOR: #b70071; TEXT-DECORATION: underline}
+.F_b70071 A:hover {COLOR: #b70071; TEXT-DECORATION: underline}
+
+
+.F_666{COLOR: #666}
+.F_666 A:link {COLOR: #666; TEXT-DECORATION: none}
+.F_666 A:visited {COLOR: #666; TEXT-DECORATION: none}
+.F_666 A:hover {COLOR: #666;}
+
+.F_333{COLOR: #333}
+.F_333 A:link {COLOR: #333; TEXT-DECORATION: none}
+.F_333 A:visited {COLOR: #333; TEXT-DECORATION: none}
+.F_333 A:hover {COLOR: #333;}
+
+.F_cb0164{COLOR: #cb0164}
+.F_cb0164 A:link {COLOR: #cb0164; TEXT-DECORATION: underline}
+.F_cb0164 A:visited {COLOR: #cb0164; TEXT-DECORATION: underline}
+.F_cb0164 A:hover {COLOR: #cb0164;}
+
+.F_2d90c4{COLOR: #2d90c4}
+.F_2d90c4 A:link {COLOR: #2d90c4; TEXT-DECORATION: none}
+.F_2d90c4 A:visited {COLOR: #2d90c4; TEXT-DECORATION: none}
+.F_2d90c4 A:hover {COLOR: #ff0000;}
+
+.F_2b9100{COLOR: #2b9100}
+.F_2b9100 A:link {COLOR: #2b9100; TEXT-DECORATION: none}
+.F_2b9100 A:visited {COLOR: #2b9100; TEXT-DECORATION: none}
+.F_2b9100 A:hover {COLOR: #ff0000;}
+
+.F_ee2c70{COLOR: #ee2c70}
+.F_ee2c70 A:link {COLOR: #ee2c70; TEXT-DECORATION: none}
+.F_ee2c70 A:visited {COLOR: #ee2c70; TEXT-DECORATION: none}
+.F_ee2c70 A:hover {COLOR: #ee2c70; TEXT-DECORATION: underline}
+
+.F_2770ba{COLOR: #2770ba}
+.F_2770ba A:link {COLOR: #2770ba; TEXT-DECORATION: none}
+.F_2770ba A:visited {COLOR: #2770ba; TEXT-DECORATION: none}
+.F_2770ba A:hover {COLOR: #ff0000;}
+
+
+
+.F_36c{COLOR: #36c}
+.F_36c A:link {COLOR: #36c; TEXT-DECORATION: none}
+.F_36c A:visited {COLOR: #36c; TEXT-DECORATION: none}
+.F_36c A:hover {COLOR: #ff0000;}
+
+
+.F_c7c7c7{COLOR: #c7c7c7}
+.F_c7c7c7 A:link {COLOR: #c7c7c7; TEXT-DECORATION: none}
+.F_c7c7c7 A:visited {COLOR: #c7c7c7; TEXT-DECORATION: none}
+.F_c7c7c7 A:hover {COLOR: #ff0000;}
+
+/*------图片样式-------*/
+.P_index {border:1px solid #E1E2E4; padding:1px;width:86px;}
+.P_user {border:1px solid #C7C7C7; padding:3px;width:90px; height:115px; background-color:#FFFFFF;}
+
+/*------字体大小------*/
+.F_12 {font-size:12px;}
+.F_13 {font-size:13px;}
+.F_14 {font-size:14px;}
+.F_16 {font-size:16px;}
+.F_18 {font-size:18px;}
+
+/*----------下划线--------------*/
+.F_U {TEXT-DECORATION: underline}
+.F_U A:link {TEXT-DECORATION: underline}
+.F_U A:visited {TEXT-DECORATION: underline;}
+.F_U A:hover {TEXT-DECORATION: none}
+/*----------推荐会员--------------*/
+.F_B_TOP{height:39px; background-image:url(../sun_images/index_50.jpg); background-color:#ffeaf4; width:715px;}
+.F_B_TOPS{background:url(../sun_images/index_topmend_bg.gif) repeat-x;height:44px;}
+.F_B{font-weight:bold;}
+.F_B_BODY{border-right:#CCCCCC 1px dotted; padding-top:11px; background:url(../sun_images/index_list_bg.gif) repeat-x 0 bottom; overflow:hidden; zoom:1;}
+.F_B_BODY2{padding-top:11px;background:url(../sun_images/index_list_bg.gif) repeat-x 0 bottom; overflow:hidden; zoom:1;}
+.F_B A:link  {font-weight:bold;}
+.F_B A:visited{font-weight:bold;}
+.F_B A:hover {font-weight:bold;}
+.F_C_R {padding-left:15px;padding-bottom:11px;}
+.F_C_R_D {background: url(../sun_images/index_photo_bg.gif); *width:106px;*height:124px;}
+.F_C_R IMG{*width:84px;*height:104px;*padding-top:10px;*padding-right:2px;}
+.F_C_l {padding:0 15px;font-family:"宋体";line-height:18px;}
+.F_h{font-family:"黑体" }
+
+/*---------活动样式---------------*/
+.huod_head {font-weight:bold;background:url(../sun_images/index_88.jpg) no-repeat; height:28px;padding-left:15px; width:979px;}
+.huod_main{
+	background-image: url(../sun_images/index_86.jpg);
+	background-repeat: no-repeat;
+	width:980px;
+}
+
+
+/*----------英文样式--------------*/
+.F_y{ font: 14px Arial, Helvetica, sans-serif; font-weight:bold}
+.F_y A:link {font:14px Arial, Helvetica, sans-serif; font-weight:bold}
+.F_y A:visited {font:14px Arial, Helvetica, sans-serif; font-weight:bold}
+.F_y A:hover {font:14px Arial, Helvetica, sans-serif; font-weight:bold;TEXT-DECORATION: underline}
+
+.b1{ border-left:1px solid #4a4a4a;border-right:1px solid #4a4a4a;}
+.b3{ border-left:1px solid #4b0602;border-right:1px solid #4b0602;}
+.b2{ border-bottom:1px dashed #3f3c3c}
+.b4{ border:1px solid #434343}
+.b5{ border-bottom:1px dashed #3f3c3c;border-top:1px dashed #3f3c3c;}
+.border {border: #ffffff  1px solid ;}
+
+/*-----------首页活动图片------------*/
+.imgshow{ float:left; text-align:center; width:140px; height:180px;margin:20px 30px 10px 8px;text-align:left;line-height:150%;}
+
+.imgshow img{ width:130px; height:90px; margin-bottom:2px;border:1px solid #CCCCCC;padding:4px;}

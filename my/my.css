@@ -1,0 +1,41 @@
+body{
+background-color:#fff;font-family:Arial,宋体;font-size:12px;padding:0px;;margin:0px auto;color:#333;
+SCROLLBAR-FACE-COLOR: #E1E1E1;/*拖条色*/
+SCROLLBAR-TRACK-COLOR: #F2F2F2;/*拖条背景*/
+SCROLLBAR-HIGHLIGHT-COLOR: #E1E1E1;/*拖条左上框色*/
+SCROLLBAR-3DLIGHT-COLOR: #E1E1E1;/*阴影(左上)*/
+SCROLLBAR-SHADOW-COLOR: #E1E1E1;/*拖条右下框色*/
+SCROLLBAR-DARKSHADOW-COLOR: #878787;/*阴影(右下)*/
+SCROLLBAR-ARROW-COLOR: #ffffff;/*小三角*/
+}
+ul,li,form,img,table{margin:0px;padding:0px;border:0px}
+li{list-style-type:none;}
+td{font-family:Arial,宋体;}
+.input{font-size:12px;color:#333;background:#F8FCF5;border:#ccc 1px solid;height:17px;font-family:Arial,宋体}
+input{font-size:12px;color:#333;font-family:"Arial,宋体";}
+select{font-size:12px;color:#333;background:#F8FCF5;}
+textarea{font-size:12px;color:#333;background:#F8FCF5;border:#cccccc 1px solid;}
+.button{cursor:pointer!important;cursor:hand;background-image:url(/images/bg_btn.gif);background-color:#FFF5E6;text-align:center; height:32px;width:80px;padding:0px!important;padding-top:3px; border:1px solid #FF7E00;color:#000;font-size:10.3pt;font-weight:bold;}
+.buttonx{cursor:pointer!important;cursor:hand;background-image:url(/images/bg_btn2.gif);background-color:#FFF5E6; text-align:center; height:22px;padding:0px!important;padding-top:3px; border:1px solid #FF7E00;color:#000}
+img{border:0;} 
+table{border-collapse:collapse;border-spacing:0} 
+.clear{clear:both;height:0;width:1px;font-size:1px;visibility:hidden} 
+a{text-decoration: underline;color:#333; font-family:Arial,宋体}
+a:hover {color:#DF2C91;text-decoration:underline} 
+a.uff6600{text-decoration: underline;color:#ff6600; font-family: Arial,宋体}
+a.uff6600:hover{text-decoration:underline;color:#DF2C91;}
+a.uffff00{text-decoration: underline;color:#ffff00; font-family: Arial,宋体}
+a.uffff00:hover {text-decoration:none;color:#FCF0F5}
+/*已修正*/
+a.a333{text-decoration:none;color:#333;font-family:Arial,宋体}
+a.a333:hover{color:#6F9F00;}
+a.a666{text-decoration:none;color:#666;font-family:Arial,宋体}
+a.a666:hover {color:#DF2C91;}
+a.u666{text-decoration:underline;color:#666;font-family:Arial,宋体}
+a.u666:hover{color:#DF2C91;}
+a.uDF2C91{text-decoration:underline;color:#DF2C91;font-family:Arial,宋体}
+a.uDF2C91:hover{color:#6F9F00;}
+a.a6F9F00{text-decoration:none;color:#6F9F00;font-family:Arial,宋体}
+a.a6F9F00:hover{text-decoration:none;color:#DF2C91;}
+.page1{border:#ccc 1px solid;width:22px;height:20px;text-align:center;cursor: pointer;background:#FBF9F9;padding-left:5px;padding-right:5px}
+.page2{border:#ccc 1px solid;width:22px;height:20px;text-align:center;background-color:#ffffcc;color:red;padding-left:5px;padding-right:5px}

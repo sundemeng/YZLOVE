@@ -1,0 +1,44 @@
+body{font-family:ËÎÌו;font-size:9pt;color:#FF4B7E;}
+A:link {text-decoration: none;color:#666666;}
+A:visited {text-decoration: none;color:#666666;}
+A:active {text-decoration: none;color:#666666;}
+A:hover {color:#FF8260;text-decoration:underline} 
+A.title:link {text-decoration: none;color:#ffffff;}
+A.title:visited {text-decoration: none;color: #ffffff;}
+A.title:active {text-decoration: none;color: #ffffff;} 
+A.title:hover {text-decoration:underline;color:#ffffff;}
+A.titleselected:link {text-decoration: none;color:#FF5400;font-size:9pt;font-weight:bold;}
+A.titleselected:visited {text-decoration: none;color: #FF5400;font-size:9pt;font-weight:bold;}
+A.titleselected:active {text-decoration: none;color: #FF5400;font-size:9pt;font-weight:bold;} 
+A.titleselected:hover {text-decoration:underline;color:#FF5400;font-size:9pt;font-weight:bold;}
+.tiaose{color:#FF6F28}
+A.tiaose:link {text-decoration: none;color:#FF5400;font-size:9pt;}
+A.tiaose:visited {text-decoration: none;color: #FF5400;font-size:9pt;}
+A.tiaose:active {text-decoration: none;color: #FF5400;font-size:9pt;} 
+A.tiaose:hover {text-decoration:underline;color:#FF5400;font-size:9pt;}
+A.333333:link {text-decoration: none;color:#333333;}
+A.333333:visited {text-decoration: none;color: #666666;}
+A.333333:active {text-decoration: none;color: #333333;} 
+A.333333:hover {text-decoration:underline;color:#FF8260;}
+.photo52X52{width:50;height:50;overflow: hidden;text-align:center;}
+.photo52X52 img, .resultImg img{width: auto !important;height:50px !important;} 
+.photo62X62{width: 60;height: 60;overflow: hidden;text-align:center;}
+.photo62X62 img, .resultImg img{width: auto !important;height: 60px !important;} 
+.photo150X150{width: 150px;height: 150px;overflow: hidden;text-align:center;}
+.photo150X150 img, .resultImg img {height: 150px !important;width: auto !important;} 
+TD{ FONT-SIZE:9pt;color:#333333;font-family:"Arial,ËÎÌו";}
+.tdbg{ background:#FFF7F2}
+.tdbg2{ background:#FFE3D0}
+.tiaobgse{color:#FFE3D0}
+.yq{color:#B03A00}
+.tdbg3{background-image:url(tdbg.gif)}
+.tdbg4{ background:#FBD49C}
+.fontselected{border-bottom:#cccccc 2px solid;color:#000000;}
+.input{FONT-SIZE: 9pt;color:#333333;background:#F7FBFD;border:#dddddd 1px solid;height:20px;}
+select{FONT-SIZE: 9pt;color:#333333;background:#F2FAFF;}
+textarea{FONT-SIZE: 9pt;color:#333333;background:#ffffff;border:#cccccc 1px solid;}
+.button{cursor:pointer!important;cursor:hand;background-image:url(/images/bg_btn.gif);background-color:#FFF5E6; text-align:center; height:32px;padding:0px!important;padding-top:3px; border:1px solid #FF7E00;color:#000000;font-size:10.3pt;font-weight:bold;}
+.buttonx{cursor:pointer!important;cursor:hand;background-image:url(/images/bg_btn2.gif);background-color:#FFF5E6; text-align:center; height:22px;padding:0px!important;padding-top:3px; border:1px solid #FF7E00;color:#000000;font-size:9pt;}
+Hand_Off {BACKGROUND-COLOR: #FFFFFFF;Text-align: center;}
+.Hand_On {cursor: pointer;background-color : #cccccc;}
+.Hand_Down {cursor: pointer;background-color : #ffffff;}

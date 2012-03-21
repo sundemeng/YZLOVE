@@ -1,0 +1,26 @@
+.main .right .rightTitle {width:630px;height:25px;line-height:25px;background:#3675cc;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+
+.main .right .rightTitle h4 {float:left;color:#fff}
+.main .right .rightTitle a {float:right;display:block;width:86px;color:#fff;position:relative;font-size:14px;font-weight:bold}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#000}
+.main .right .rightContent {width:630px;background:#fff;color:#666;padding:15px 0px 30px 0px;;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;text-align:center}
+.main .right .rightContent .pageshow {width:560px;height:35px;text-align:center;border-top:#ddd 1px solid;line-height:35px;margin:0 15px 15px 15px;padding:15px;position:relative;color:#333}
+.main .right .rightContent .nodata {width:300px;margin:100px;padding:40px 0 40px 0;background:#f3f3f3}
+.main .right .rightContent .Tdataline{width:600px;height:30px;line-height:30px;text-align:center;border-bottom:#ddd 1px solid;position:relative}
+.main .right .rightContent .Tdataline .Tdataline1{float:left;width:260px;letter-spacing:5px}
+.main .right .rightContent .Tdataline .Tdataline2{float:left;width:140px}
+.main .right .rightContent .Tdataline .Tdataline3{float:left;width:60px}
+.main .right .rightContent .Tdataline .Tdataline4{float:left;width:60px}
+.main .right .rightContent .Tdataline .Tdataline5{float:left;width:80px}
+
+.main .right .rightContent .dataline{width:600px;height:60px;border-bottom:#ddd 1px solid;position:relative}
+.main .right .rightContent .dataline .dataline1{float:left;width:260px;height:40px;padding:20px 0 0 0;text-align:left;font-size:14px}
+.main .right .rightContent .dataline .dataline2{float:left;width:140px;height:48px;line-height:18px;padding-top:12px}
+.main .right .rightContent .dataline .dataline3{float:left;width:60px;line-height:60px}
+.main .right .rightContent .dataline .dataline4{float:left;width:60px;line-height:60px}
+.main .right .rightContent .dataline .dataline5{float:left;width:80px;line-height:60px}
+.main .right .rightContent .dataline .dataline1 img{margin:0 5px 0 5px}
+.main .right .rightContent .dataline .dataline1 a {text-decoration:underline}
+
+.timestyle {color:#f00;font-size:12px;font-weight:bold}

@@ -1,0 +1,10 @@
+.main .right .rightTitle {width:750px;height:25px;line-height:25px;background:#b160cf;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+
+.main .right .rightTitle h4 {float:left;color:#fff;position:relative;}
+.main .right .rightTitle a {float:right;display:block;width:80px;color:#fff;position:relative;font-size:14px;font-weight:bold;}
+.main .right .rightTitle a:link,a:visited,a:active {text-decoration:none;}
+.main .right .rightTitle a:hover {text-decoration:underline;color:#DD248A;}
+.main .right .rightContent {width:750px;background:#fff;color:#666;padding:10px 0 10px 0;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;text-align:center;}
+.main .right .rightContent .videoContent{width:650px;color:#666;padding:10px 0 10px 0;text-align:left;line-height:24px;position:relative;}
+.main .right .rightContent .videoContent h2{color:#666;display:inline;width:80px}
+.copyCode{background:#f8f8f8;border:#ccc 1px solid;color:#666}

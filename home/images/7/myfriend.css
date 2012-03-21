@@ -1,0 +1,19 @@
+.main .right .rightTitle {width:630px;height:25px;line-height:25px;background:#3675cc;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+
+.main .right .rightTitle h4 {float:left;color:#fff}
+
+.main .right .rightContent {width:624px;background:#fff;color:#666;padding:15px 3px 10px 3px;;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;text-align:center;}
+.main .right .rightContent .frame_k {float:left;width:100px;height:100px;margin:10px 2px 5px 2px;position:relative;display:inline;text-align:center}
+.main .right .rightContent .frame_k .frame_k1{}
+.main .right .rightContent .frame_k .frame_k1 a {width:65px;height:80px;display:block;border:#ddd 1px solid;padding:2px;background:#fff;position:relative}
+.main .right .rightContent .frame_k .frame_k1 a:hover {width:65px;height:80px;display:block;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;border:#f00 1px solid;background:#fff;position:relative;}
+.main .right .rightContent .frame_k .frame_k2 {width:100px;height:20px;line-height:20px;overflow:hidden;}
+
+.main .right .rightContent .pageshow {width:560px;height:35px;text-align:center;border-top:#ddd 1px solid;line-height:35px;margin:0 15px 15px 15px;padding:15px;position:relative;color:#333;}
+.main .right .rightContent .nodata {width:300px;margin:100px;padding:40px 0 40px 0;background:#f3f3f3;position:relative;}
+.page1{border:#ccc 1px solid;width:22px;height:20px;text-align:center;cursor: pointer;background:#FBF9F9;padding-left:5px;padding-right:5px;}
+.page2{border:#ccc 1px solid;width:22px;height:20px;text-align:center;background-color:#ffffcc;color:red;padding-left:5px;padding-right:5px;}
+A:link {text-decoration: none;color:#09c; font-family:Arial,ËÎÌו}
+A:visited {text-decoration: none;color:#09c; font-family:Arial,ËÎÌו}
+A:active {text-decoration: none;color:#09c; font-family:Arial,ËÎÌו}
+A:hover {color:#f60;text-decoration:underline} 

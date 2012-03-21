@@ -1,0 +1,23 @@
+/*×ó*/
+.main {width:900px;margin:0px auto;text-align:left;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+.main .left {float:left;width:260px;margin-right:10px;}
+.main .left .leftTitle{width:260px;height:28px;border-top:#090 2px solid;background:#adf3ad;font-weight:bold;font-size:14px;color:#000;line-height:28px;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+.main .left .leftTitle .gradeicon {float:left;width:20px;height:23px;padding:5px 0 0 0;text-align:right;position:relative;}
+.main .left .leftTitle .gradeicon2 {float:left;}
+.main .left .leftTitle .gradeicon3 {float:left;height:23px;padding:5px 0 0 5px}
+.main .left .leftContent{width:230px;padding:0 15px 0 15px;margin:0 0 5px 0;color:#666;background:#fff;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8}
+.main .left .leftContentAD {width:240px;height:210px;padding:10px;color:#666;background:#fff;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;text-align:center;}
+.main .left .leftContentAD .trtd {float:left;width:110px;height:60px;margin:5px;color:#666;background:#f3f3f3;display:inline;line-height:60px;}
+/*6¸ö°´Å¥*/
+.main .left ul{width:230px;display:block;padding:15px 15px 10px 15px;background:#fff;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+.main .left ul li{float:left;width:115px;height:30px;text-align:center;position:relative;}
+.main .left ul .userphoto1{float:left;width:110px;height:135px;padding:2px;border:#ddd 1px solid;background:#fff;position:relative;}
+.main .left ul .userphoto2{float:left;width:103px;height:141px;margin-left:10px}
+.main .left ul .userphoto2 .userphoto2L{float:left;width:50px;height:24px;line-height:24px;position:relative;color:#666;}
+.main .left ul .userphoto2 .userphoto2R{float:left;width:53px;height:24px;line-height:20px;color:#f00;position:relative}
+.main .left ul .userphoto2 .userphoto2B{float:left;width:90px;height:30px;position:relative;padding:10px 0 0 10px;}
+.main .left .leftContent h1{color:#666;}
+.main .left .leftContent p{line-height:200%;padding:15px 0 15px 0;color:#666;}
+/*.main .left .leftContent .tiaose{color:#E54375;}*/
+/*ÓÒ*/
+.main .right {float:left;width:630px;text-align:left;}
